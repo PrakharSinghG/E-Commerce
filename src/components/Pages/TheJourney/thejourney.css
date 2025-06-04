@@ -1,0 +1,52 @@
+.journey-overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.85) 100%),
+    url("/src/assets/grasspic.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  max-width: 1300px;
+  color: white;
+  margin: auto;
+}
+
+.journey-title {
+  text-align: center;
+  font-size: 80px;
+  margin: 20px 0 120px;
+}
+
+.journey-timeline {
+  border-left: 2px solid white;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+.journey-point {
+  position: relative;
+}
+
+.journey-point .dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  left: -26px;
+  top: 5px;
+}
+
+.journey-point h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.journey-point p {
+  font-size: 14px;
+  line-height: 1.6;
+}

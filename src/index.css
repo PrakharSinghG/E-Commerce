@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+body,
+html {
+  font-family: "Product_Sans";
+  background: white;
+}

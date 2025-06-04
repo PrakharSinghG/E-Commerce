@@ -1,0 +1,38 @@
+nav {
+  background-color: #f8f9fa;
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  width: 50px;
+}
+
+.nav-link {
+  border-bottom: #333 solid 4px;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  margin: 0 50px;
+}
+
+.nav-link-inactive {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 0 50px;
+}
+
+.user {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.user img {
+  width: 40px;
+  margin-right: 10px;
+}
